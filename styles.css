@@ -1,0 +1,36 @@
+
+html,body{
+    height:100%;
+    margin:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:32px;
+    color:#333;
+}
+
+body > * {
+    max-width:360px;
+    width:100%;
+}
+
+h2{
+    margin:0 0 8px 0;
+    font-size:1.6rem;
+    text-align:center;
+    padding:12px 18px;
+    border-radius:14px;
+    box-shadow: 0 8px 24px rgba(89,56,77,0.08);
+    color:#402532;
+}
+
+button{
+    margin:12px auto 0 auto;
+    min-height:28px;
+    max-width:320px;
+    text-align:center;
+    background: rgba(249, 179, 179, 0.7);
+    padding:8px 12px;
+    border-radius:10px;
+    color:#5a3a45;
+}
